@@ -1,4 +1,4 @@
-# Sentiment_Analysis_Supervised_ML
+# Sentiment Analysis Supervised ML 2012
 
 8 movie review sites = 4 Training Dataset + 4 Test Dataset.
 
