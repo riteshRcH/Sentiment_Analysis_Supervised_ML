@@ -1,0 +1,5 @@
+C:\My Data\BlogMinerPrj\DBPopulate\bin\Debug\DBPopulate.exe
+C:\My Data\BlogMinerPrj\DBPopulate\bin\Debug\DBPopulate.pdb
+C:\My Data\BlogMinerPrj\DBPopulate\obj\Debug\ResolveAssemblyReference.cache
+C:\My Data\BlogMinerPrj\DBPopulate\obj\Debug\DBPopulate.exe
+C:\My Data\BlogMinerPrj\DBPopulate\obj\Debug\DBPopulate.pdb

@@ -1,0 +1,7 @@
+C:\My Data\BlogMiner\SampleCrawler\bin\Debug\SampleCrawler.exe
+C:\My Data\BlogMiner\SampleCrawler\bin\Debug\SampleCrawler.pdb
+C:\My Data\BlogMiner\SampleCrawler\obj\Debug\ResolveAssemblyReference.cache
+C:\My Data\BlogMiner\SampleCrawler\obj\Debug\SampleCrawler.Properties.Resources.resources
+C:\My Data\BlogMiner\SampleCrawler\obj\Debug\SampleCrawler.csproj.GenerateResource.Cache
+C:\My Data\BlogMiner\SampleCrawler\obj\Debug\SampleCrawler.exe
+C:\My Data\BlogMiner\SampleCrawler\obj\Debug\SampleCrawler.pdb

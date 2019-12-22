@@ -1,0 +1,5 @@
+C:\My Data\BlogMinerPrj\SentiWordDBPopulate\obj\Debug\ResolveAssemblyReference.cache
+C:\My Data\BlogMinerPrj\SentiWordDBPopulate\bin\Debug\SentiWordDBPopulate.exe
+C:\My Data\BlogMinerPrj\SentiWordDBPopulate\bin\Debug\SentiWordDBPopulate.pdb
+C:\My Data\BlogMinerPrj\SentiWordDBPopulate\obj\Debug\SentiWordDBPopulate.exe
+C:\My Data\BlogMinerPrj\SentiWordDBPopulate\obj\Debug\SentiWordDBPopulate.pdb

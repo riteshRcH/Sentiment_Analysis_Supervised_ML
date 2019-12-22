@@ -1,0 +1,9 @@
+C:\My Data\BlogMiner\Crawler\bin\Debug\CSharpCrawler.exe.config
+C:\My Data\BlogMiner\Crawler\obj\Debug\Interop.SHDocVw.dll
+C:\My Data\BlogMiner\Crawler\obj\Debug\CSharpCrawler.csproj.ResolveComReference.cache
+C:\My Data\BlogMiner\Crawler\bin\Debug\CSharpCrawler.exe
+C:\My Data\BlogMiner\Crawler\bin\Debug\CSharpCrawler.pdb
+C:\My Data\BlogMiner\Crawler\bin\Debug\Interop.SHDocVw.dll
+C:\My Data\BlogMiner\Crawler\obj\Debug\ResolveAssemblyReference.cache
+C:\My Data\BlogMiner\Crawler\obj\Debug\CSharpCrawler.exe
+C:\My Data\BlogMiner\Crawler\obj\Debug\CSharpCrawler.pdb

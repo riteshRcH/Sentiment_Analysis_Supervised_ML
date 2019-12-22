@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Crawler">
+</Property><Property Name="Solution File" Value="C:\My Data\BlogMiner\Crawler\Crawler.sln">
+</Property><Property Name="User Options File" Value="C:\My Data\BlogMiner\Crawler\Crawler.suo">
+</Property><Property Name="Date" Value="20 May 2012">
+</Property><Property Name="Time" Value="20:36">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Crawler.sln" Description="File successfully backed up as C:\My Data\BlogMiner\Crawler\Backup\Crawler.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Crawler.suo" Description="File successfully backed up as C:\My Data\BlogMiner\Crawler\Backup\Crawler.suo">
+</Event><Event ErrorLevel="0" Project="CSharpCrawler" Source="CSharpCrawler.csproj" Description="Project file successfully backed up as C:\My Data\BlogMiner\Crawler\Backup\CSharpCrawler.csproj">
+</Event><Event ErrorLevel="0" Project="CSharpCrawler" Source="Crawler.cs" Description="File successfully backed up as C:\My Data\BlogMiner\Crawler\Backup\Crawler.cs">
+</Event><Event ErrorLevel="0" Project="CSharpCrawler" Source="CSSClassParser.cs" Description="File successfully backed up as C:\My Data\BlogMiner\Crawler\Backup\CSSClassParser.cs">
+</Event><Event ErrorLevel="0" Project="CSharpCrawler" Source="LinkParser.cs" Description="File successfully backed up as C:\My Data\BlogMiner\Crawler\Backup\LinkParser.cs">
+</Event><Event ErrorLevel="0" Project="CSharpCrawler" Source="Page.cs" Description="File successfully backed up as C:\My Data\BlogMiner\Crawler\Backup\Page.cs">
+</Event><Event ErrorLevel="0" Project="CSharpCrawler" Source="Program.cs" Description="File successfully backed up as C:\My Data\BlogMiner\Crawler\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="CSharpCrawler" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\My Data\BlogMiner\Crawler\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="CSharpCrawler" Source="App.config" Description="File successfully backed up as C:\My Data\BlogMiner\Crawler\Backup\App.config">
+</Event><Event ErrorLevel="0" Project="CSharpCrawler" Source="CSharpCrawler.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="CSharpCrawler" Source="CSharpCrawler.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Crawler.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Crawler.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CSharpCrawler" Source="CSharpCrawler.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

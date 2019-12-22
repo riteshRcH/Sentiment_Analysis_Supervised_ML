@@ -1,0 +1,5 @@
+C:\My Data\BlogMiner\ConsoleApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\My Data\BlogMiner\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\My Data\BlogMiner\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\My Data\BlogMiner\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\My Data\BlogMiner\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

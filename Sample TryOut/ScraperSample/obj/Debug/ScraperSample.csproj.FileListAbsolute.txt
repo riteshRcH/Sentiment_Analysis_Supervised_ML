@@ -1,0 +1,5 @@
+C:\Users\Ritesh\Desktop\Sample TryOut\ScraperSample\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ritesh\Desktop\Sample TryOut\ScraperSample\bin\Debug\ScraperSample.exe
+C:\Users\Ritesh\Desktop\Sample TryOut\ScraperSample\bin\Debug\ScraperSample.pdb
+C:\Users\Ritesh\Desktop\Sample TryOut\ScraperSample\obj\Debug\ScraperSample.exe
+C:\Users\Ritesh\Desktop\Sample TryOut\ScraperSample\obj\Debug\ScraperSample.pdb

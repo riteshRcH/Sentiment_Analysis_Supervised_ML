@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "BlogMinerFinal1", ".", "{02C247FC-E638-498A-8381-2EEF4D81E7E6}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/BlogMinerFinal1"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\My Data\BlogMiner\BlogMiner1\BlogMinerFinal1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\BlogMinerFinal1\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/BlogMinerFinal1"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\My Data\BlogMiner\BlogMiner1\BlogMinerFinal1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\BlogMinerFinal1\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53650"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02C247FC-E638-498A-8381-2EEF4D81E7E6}.Debug|.NET.ActiveCfg = Debug|.NET
+		{02C247FC-E638-498A-8381-2EEF4D81E7E6}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

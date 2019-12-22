@@ -1,0 +1,283 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+System.SpellChecking
+</name>
+</assembly>
+<members>
+<member name="M:System.SpellChecking.Collections.SuggestionCollection.#ctor">
+	<summary>
+ Initializes a new instance of the System.SpellChecking.SuggestionCollection class.
+ </summary>
+</member><member name="M:System.SpellChecking.Collections.SuggestionCollection.Add(System.SpellChecking.Suggestion)">
+	<summary>
+ Adds a System.SpellChecking.Suggestion to the end of the collection.
+ </summary>
+	<param name="s">The suggestion to add.</param>
+</member><member name="T:System.SpellChecking.Collections.SuggestionCollection">
+	<summary>
+ Represents a collection of System.SpellChecking.Suggestion objects. This class cannot be inherited.
+ </summary>
+</member><member name="P:System.SpellChecking.Suggestion.Word">
+	<summary>
+ Gets a value indicating the word the current instance is associated with.
+ </summary>
+</member><member name="P:System.SpellChecking.Suggestion.Value">
+	<summary>
+ Gets the value of the suggestion.
+ </summary>
+	<value></value>
+</member><member name="M:System.SpellChecking.Suggestion.#ctor(System.String,System.String)">
+	<summary>
+ Initializes a new instance of the System.SpellChecking.Suggestion class.
+ </summary>
+	<param name="word">Indicates the word the current instance is associated with.</param>
+	<param name="value">The value of the suggestion.</param>
+</member><member name="T:System.SpellChecking.Suggestion">
+	<summary>
+ Represents a suggestion returned by a System.SpellChecking.Correction. This class cannot be inherited.
+ </summary>
+</member><member name="P:System.SpellChecking.Correction.Word">
+	<summary>
+ Gets a value indicating the word the suggestions will be associated with.
+ </summary>
+</member><member name="P:System.SpellChecking.Correction.Offset">
+	<summary>
+ Gets a value indicating the starting offset from the beginning of the initial string this correction applies to.
+ </summary>
+</member><member name="P:System.SpellChecking.Correction.Length">
+	<summary>
+ Gets a value indicating the length from the offset of the initial string this correction applies to.
+ </summary>
+</member><member name="P:System.SpellChecking.Correction.HasSuggestions">
+	<summary>
+ Gets a value indicating whether there are suggestions associated with the current instance.
+ </summary>
+</member><member name="P:System.SpellChecking.Correction.Suggestions">
+	<summary>
+ Gets a collection of suggestions for the current instance.
+ </summary>
+</member><member name="M:System.SpellChecking.Correction.#ctor(System.SpellChecking.Request,System.Xml.Linq.XElement)">
+	<summary>
+ Initializes a new instance of the System.SpellChecking.Correction class.
+ </summary>
+	<param name="request">The source request that generated the result.</param>
+	<param name="correction">The Xml representation of the correction.</param>
+</member><member name="T:System.SpellChecking.Correction">
+	<summary>
+ Represents a correction returned in a System.SpellChecking.Result. This class cannot be inherited.
+ </summary>
+</member><member name="P:System.SpellChecking.Collections.BaseCollection`1.Item(System.Int32)">
+	<summary>
+ Gets the element at the specified index.
+ </summary>
+	<param name="index">The index of the element to retrieve.</param>
+</member><member name="T:System.SpellChecking.Collections.BaseCollection`1">
+	<summary>
+ Represents the base collection used.
+ </summary>
+	<typeparam name="T">The type of element that this collection will contain.</typeparam>
+</member><member name="F:System.SpellChecking.Result.ErroredResult">
+	<summary>
+ Gets a read-only field indicating an errored spell checked result.
+ </summary>
+</member><member name="P:System.SpellChecking.Result.Request">
+	<summary>
+ Gets the request that generated this result.
+ </summary>
+</member><member name="P:System.SpellChecking.Result.Errored">
+	<summary>
+ Gets a value indicating whether the result errored.
+ </summary>
+</member><member name="P:System.SpellChecking.Result.Clipped">
+	<summary>
+ Gets a value indicating whether the server clipped the text.
+ </summary>
+</member><member name="P:System.SpellChecking.Result.CharsChecked">
+	<summary>
+ Gets a value indicating the amount of characters checked.
+ </summary>
+</member><member name="P:System.SpellChecking.Result.HasCorrections">
+	<summary>
+ Gets a value indicating whether there are corrections associated with the current instance.
+ </summary>
+</member><member name="P:System.SpellChecking.Result.Corrections">
+	<summary>
+ Gets a collection of corrections for the request.
+ </summary>
+</member><member name="M:System.SpellChecking.Result.#cctor">
+	<summary>
+ Initializes the shared objects of the System.SpellChecking.Result class.
+ </summary>
+</member><member name="M:System.SpellChecking.Result.#ctor(System.SpellChecking.Request,System.Xml.Linq.XDocument)">
+	<summary>
+ Initializes a new instance of the System.SpellChecking.Result class.
+ </summary>
+	<param name="request">The request that generated this result.</param>
+	<param name="result">The resulting Xml document returned by the server.</param>
+</member><member name="M:System.SpellChecking.Result.#ctor(System.Boolean)">
+	<summary>
+ Initializes a new instance of the System.SpellChecking.Result class.
+ </summary>
+	<param name="overrideError">Indicates whether this instance should be marked as errored.</param>
+</member><member name="T:System.SpellChecking.Result">
+	<summary>
+ Represents data describing the result of a call to the System.SpellChecking.Checker.Check method. This class cannot be inherited.
+ </summary>
+</member><member name="P:System.SpellChecking.CheckAsyncEventArgs.Result">
+	<summary>
+ Gets the result of the asynchronous spell check.
+ </summary>
+</member><member name="P:System.SpellChecking.CheckAsyncEventArgs.UserToken">
+	<summary>
+ Gets the user object for the asynchronous task.
+ </summary>
+</member><member name="M:System.SpellChecking.CheckAsyncEventArgs.#ctor(System.SpellChecking.Result,System.Object)">
+	<summary>
+ Initializes a new instance of the System.SpellChecking.CheckAsynEventArgs.
+ </summary>
+	<param name="result">The result of the asynchronous spell check.</param>
+	<param name="userToken">The user object for the asynchronous task.</param>
+</member><member name="T:System.SpellChecking.CheckAsyncEventArgs">
+	<summary>
+ Represents data describing the result of a call to the System.SpellChecking.Checker.CheckAsync method. This class cannot be inherited.
+ </summary>
+</member><member name="T:System.SpellChecking.CheckAsyncEventHandler">
+	<summary>
+ Represents the method that will handle the completion of a call to System.SpellChecking.Checker.CheckAsync.
+ </summary>
+	<param name="sender">The source of the event.</param>
+	<param name="e">A CheckAsyncEventArgs that contains event data.</param>
+</member><member name="P:System.SpellChecking.Request.TextAlreadyClipped">
+	<summary>
+ Gets or sets a value indicating whether the text has already been clipped.
+ </summary>
+</member><member name="P:System.SpellChecking.Request.IgnoreUps">
+	<summary>
+ Gets or sets a value indicating whether the request should ignore ups.
+ </summary>
+</member><member name="P:System.SpellChecking.Request.IgnoreDigits">
+	<summary>
+ Gets or sets a value indicating whether the request should ignore digits.
+ </summary>
+</member><member name="P:System.SpellChecking.Request.IgnoreAllCaps">
+	<summary>
+ Gets or sets a value indicating whether the request should ignore all capitals.
+ </summary>
+</member><member name="P:System.SpellChecking.Request.Text">
+	<summary>
+ Gets or sets a value indicating the text that should be spell checked.
+ </summary>
+</member><member name="P:System.SpellChecking.Request.Multilined">
+	<summary>
+ Gets or sets a value indicating whether the text will be marked as multi-lined so that offsets are corrected for new line characters.
+ </summary>
+</member><member name="M:System.SpellChecking.Request.#ctor">
+	<summary>
+ Initializes a new instance of the System.SpellChecking.Request class.
+ </summary>
+</member><member name="M:System.SpellChecking.Request.#ctor(System.String)">
+	<summary>
+ Initializes a new instance of the System.SpellChecking.Request class.
+ </summary>
+	<param name="text">Indicates the text that should be spell checked.</param>
+</member><member name="T:System.SpellChecking.Request">
+	<summary>
+ Represents a customizable request to perform a spell check against. This class cannot be inherited.
+ </summary>
+</member><member name="P:System.SpellChecking.Checker.Client">
+	<summary>
+ Gets the System.Net.WebClient associated with the current instance.
+ </summary>
+</member><member name="P:System.SpellChecking.Checker.AddressUri">
+	<summary>
+ Gets the System.Uri associated with the current instance and culture.
+ </summary>
+</member><member name="P:System.SpellChecking.Checker.Culture">
+	<summary>
+ Gets or sets a value indicating the culture information to use for spell checking requests.
+ </summary>
+</member><member name="M:System.SpellChecking.Checker.#ctor">
+	<summary>
+ Initializes a new instance of the System.SpellChecking.Checker class using the current culture information.
+ </summary>
+</member><member name="M:System.SpellChecking.Checker.#ctor(System.Globalization.CultureInfo)">
+	<summary>
+ Initializes a new instance of the System.SpellChecking.Checker class using the specified culture information.
+ </summary>
+	<param name="culture">Indicates the culture information to use for spell checking requests.</param>
+</member><member name="M:System.SpellChecking.Checker.CancelAsync">
+	<summary>
+ Cancels a pending asynchronous operation.
+ </summary>
+</member><member name="M:System.SpellChecking.Checker.Check(System.String)">
+	<summary>
+ Checks the spelling of the passed text and returns the result of the request.
+ </summary>
+	<param name="text">The text to spell check.</param>
+</member><member name="M:System.SpellChecking.Checker.Check(System.SpellChecking.Request)">
+	<summary>
+ Checks the spelling of the passed request using it's properties and returns the result of the request.
+ </summary>
+	<param name="request">The request to spell check.</param>
+</member><member name="M:System.SpellChecking.Checker.CheckAsync(System.String,System.SpellChecking.CheckAsyncEventHandler)">
+	<summary>
+ Asynchronously checks the spelling of the passed text and invokes the handler on completion.
+ </summary>
+	<param name="text">The text to spell check.</param>
+	<param name="handler">The handler for the completion of the request.</param>
+</member><member name="M:System.SpellChecking.Checker.CheckAsync(System.String,System.Object,System.SpellChecking.CheckAsyncEventHandler)">
+	<summary>
+ Asynchronously checks the spelling of the passed text and invokes the handler on completion.
+ </summary>
+	<param name="text">The text to spell check.</param>
+	<param name="userToken">A user-defined object that is passed to the method invoked after the spell checking completes.</param>
+	<param name="handler">The handler for the completion of the request.</param>
+</member><member name="M:System.SpellChecking.Checker.CheckAsync(System.SpellChecking.Request,System.SpellChecking.CheckAsyncEventHandler)">
+	<summary>
+ Asynchronously checks the spelling of the passed request and invokes the handler on completion.
+ </summary>
+	<param name="request">The request to spell check.</param>
+	<param name="handler">The handler for the completion of the request.</param>
+</member><member name="M:System.SpellChecking.Checker.CheckAsync(System.SpellChecking.Request,System.Object,System.SpellChecking.CheckAsyncEventHandler)">
+	<summary>
+ Asynchronously checks the spelling of the passed text and invokes the handler on completion.
+ </summary>
+	<param name="request">The request to spell check.</param>
+	<param name="userToken">A user-defined object that is passed to the method invoked after the spell checking completes.</param>
+	<param name="handler">The handler for the completion of the request.</param>
+</member><member name="M:System.SpellChecking.Checker.Dispose">
+	<summary>
+ Releases all resources used by the System.SpellChecking.Checker.
+ </summary>
+</member><member name="M:System.SpellChecking.Checker.Dispose(System.Boolean)">
+	<summary>
+ Releases all resources used by the Checker class.
+ </summary>
+	<param name="disposing">True to release both managed and unmanaged resources; false to release only unmanaged resources.</param>
+</member><member name="M:System.SpellChecking.Checker.GetRequestXml(System.SpellChecking.Request)">
+	<summary>
+ Gets the Xml string representation of the specified request.
+ </summary>
+	<param name="request">The request to get the Xml for.</param>
+</member><member name="T:System.SpellChecking.Checker">
+	<summary>
+ Represents a class that can use HTTP requests to check spelling. This class cannot be inherited.
+ </summary>
+</member><member name="M:System.SpellChecking.Collections.CorrectionCollection.#ctor">
+	<summary>
+ Initializes a new instance of the System.SpellChecking.CorrectionCollection class.
+ </summary>
+</member><member name="M:System.SpellChecking.Collections.CorrectionCollection.Add(System.SpellChecking.Correction)">
+	<summary>
+ Adds a System.SpellChecking.Correction to the end of the collection.
+ </summary>
+	<param name="c">The correction to add.</param>
+</member><member name="T:System.SpellChecking.Collections.CorrectionCollection">
+	<summary>
+ Represents a collection of System.SpellChecking.Correction objects. This class cannot be inherited.
+ </summary>
+</member>
+</members>
+</doc>

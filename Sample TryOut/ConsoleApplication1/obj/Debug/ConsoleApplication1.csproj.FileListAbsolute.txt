@@ -1,0 +1,5 @@
+C:\Users\Ritesh\Desktop\Sample TryOut\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\Ritesh\Desktop\Sample TryOut\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Ritesh\Desktop\Sample TryOut\ConsoleApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ritesh\Desktop\Sample TryOut\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\Ritesh\Desktop\Sample TryOut\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

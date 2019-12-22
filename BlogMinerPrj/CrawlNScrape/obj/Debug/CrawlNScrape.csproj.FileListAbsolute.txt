@@ -1,0 +1,10 @@
+C:\My Data\BlogMinerPrj\CrawlNScrape\obj\Debug\ResolveAssemblyReference.cache
+C:\My Data\BlogMinerPrj\CrawlNScrape\bin\Debug\CrawlNScrape.exe
+C:\My Data\BlogMinerPrj\CrawlNScrape\bin\Debug\CrawlNScrape.pdb
+C:\My Data\BlogMinerPrj\CrawlNScrape\bin\Debug\HtmlAgilityPack.dll
+C:\My Data\BlogMinerPrj\CrawlNScrape\bin\Debug\HtmlAgilityPack.pdb
+C:\My Data\BlogMinerPrj\CrawlNScrape\bin\Debug\HtmlAgilityPack.xml
+C:\My Data\BlogMinerPrj\CrawlNScrape\obj\Debug\CrawlNScrape.exe
+C:\My Data\BlogMinerPrj\CrawlNScrape\obj\Debug\CrawlNScrape.pdb
+C:\My Data\BlogMinerPrj\CrawlNScrape\bin\Debug\System.SpellChecking.pdb
+C:\My Data\BlogMinerPrj\CrawlNScrape\bin\Debug\System.SpellChecking.xml

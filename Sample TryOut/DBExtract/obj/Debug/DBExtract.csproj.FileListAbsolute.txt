@@ -1,0 +1,5 @@
+C:\Users\Ritesh\Desktop\Sample TryOut\DBExtract\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ritesh\Desktop\Sample TryOut\DBExtract\bin\Debug\DBExtract.exe
+C:\Users\Ritesh\Desktop\Sample TryOut\DBExtract\bin\Debug\DBExtract.pdb
+C:\Users\Ritesh\Desktop\Sample TryOut\DBExtract\obj\Debug\DBExtract.exe
+C:\Users\Ritesh\Desktop\Sample TryOut\DBExtract\obj\Debug\DBExtract.pdb
