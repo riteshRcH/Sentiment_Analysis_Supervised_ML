@@ -4,8 +4,8 @@
 
 Web App crawled (fixed depth) the training dataset, & for each movie, its name, details, review & user comments were scraped out using Html Agility Pack’s DOM based Library. These were tokenized & matched against a DB of words (adjectives majorly) to produce scores (+ve, -ve & neutral). Score obtained after scraping test dataset & scores calculated previously using training data set were averaged to get final rating out of 5.
 
-![KWTableColumns](https://raw.githubusercontent.com/riteshRcH/Sentiment_Analysis_Supervised_ML/master/screenshots/KWTableColumns.png)
+![KWTableColumns](https://raw.githubusercontent.com/riteshRcH/Sentiment_Analysis_Supervised_ML/master/pics/KWTableColumns.png)
 
-![SentiWordNetTableColumns](https://raw.githubusercontent.com/riteshRcH/Sentiment_Analysis_Supervised_ML/master/screenshots/SentiWordNetTableColumns.png)
+![SentiWordNetTableColumns](https://raw.githubusercontent.com/riteshRcH/Sentiment_Analysis_Supervised_ML/master/pics/SentiWordNetTableColumns.png)
 
-![Tables](https://raw.githubusercontent.com/riteshRcH/Sentiment_Analysis_Supervised_ML/master/screenshots/Tables.png)
+![Tables](https://raw.githubusercontent.com/riteshRcH/Sentiment_Analysis_Supervised_ML/master/pics/Tables.png)
